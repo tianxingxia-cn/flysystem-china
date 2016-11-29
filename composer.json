@@ -1,0 +1,27 @@
+{
+    "name": "ikodota/upload",
+    "description": "上传 SDK for Laravel",
+    "keywords": ["upload", "laravel", "sdk", "qiniu", "upyun", "oss"],
+    "require": {
+        "qiniu/php-sdk": "v7.0.*",
+        "aliyuncs/oss-sdk-php" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ikodota\\Upload\\": "src/"
+        }
+    },
+
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "authors": [
+        {
+            "name": "yangyifan",
+            "email": "yangyifanphp@gmail.com"
+        },
+        {
+            "name": "ikodota",
+            "email": "ikodota@gmail.com"
+        }
+    ]
+}
